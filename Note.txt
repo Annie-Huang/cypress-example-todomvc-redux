@@ -1,12 +1,26 @@
 https://www.youtube.com/watch?v=C8g5X4vCZJA&t=1073s
 https://github.com/Annie-Huang/cypress-example-todomvc-redux
 
+https://www.npmjs.com/package/@cypress/code-coverage
 
 =================================================================
 
 C:\react\cypress-example-todomvc-redux>npm run dev
 http://localhost:1234/
 
+Need to install
+npm install -D @cypress/code-coverage
+and its peer dependencies
+npm install -D nyc istanbul-lib-coverage cypress
+
+
+
+
 Check if code coverage is available:
 Type __coverage__ in console in chrome dev tool
 "Note01 - Check whether code coverage (istanbul) is avaible.jpg"
+
+You will not see anything under the top section (http://localhost:1234/) because cypress run the test under a iframe
+Note02 - Run Cypress and in chrome dev tool, you will not see __coverage__ under top.jpg
+
+
