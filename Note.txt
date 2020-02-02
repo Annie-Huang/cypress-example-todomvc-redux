@@ -8,12 +8,7 @@ https://www.npmjs.com/package/@cypress/code-coverage
 C:\react\cypress-example-todomvc-redux>npm run dev
 http://localhost:1234/
 
-Need to install
-npm install -D @cypress/code-coverage
-and its peer dependencies
-npm install -D nyc istanbul-lib-coverage cypress
-
-
+npm install -D @cypress/code-coverage nyc istanbul-lib-coverage
 
 
 Check if code coverage is available:
