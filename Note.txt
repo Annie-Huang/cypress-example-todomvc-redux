@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=C8g5X4vCZJA&t=1073s
+https://github.com/Annie-Huang/cypress-example-todomvc-redux
+
+
+=================================================================
+
+C:\react\cypress-example-todomvc-redux>npm run dev
+http://localhost:1234/
+
+Check if code coverage is available:
+Type __coverage__ in console in chrome dev tool
+"Note01 - Check whether code coverage (istanbul) is avaible.jpg"
